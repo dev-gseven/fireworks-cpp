@@ -18,6 +18,19 @@ It's recommended to install [Windows Terminal](https://apps.microsoft.com/detail
 ```
 fireworks-cpp.exe [folder] [loops]
 ```
+### Examples
+Run the default animation
+```
+./fireworks-cpp
+```
+Run the fireplace animation forever
+```
+./fireworks-cpp fireplace -1
+```
+Run the rick animation for 3 loops
+```
+./fireworks-cpp rick_ascii 3
+```
 
 ## Building from source
 1. Install 'make' on your machine
